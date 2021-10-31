@@ -1,0 +1,91 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+	background-color: #D9D1CC;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+
+}
+
+h1{
+    font-size: 50px;
+	  color: #8C442A;
+}
+.place{
+  position: fixed;
+  bottom: 350;
+  right: 525;
+  width: 300px;
+}
+.placment{
+  position: fixed;
+  bottom: 200;
+  right: 330;
+  width: 700px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A6608D;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #D9B0C6;
+}
+
+.box {
+  background-color: #b1bcbd;
+  width: 300px;
+  border: 2.5px #b1bcbd;
+  padding: 50px;
+  display: inline-block;
+  margin: 20px;
+}
+
+
+
+
+.bg {
+  background:url(../images/home2.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  background-color: #8C442A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 8px;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.photo{
+  object-position: 50% 50%;
+}
